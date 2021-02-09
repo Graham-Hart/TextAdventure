@@ -1,0 +1,5 @@
+__pycache__
+*.pyc
+.vscode
+story.txt
+env
