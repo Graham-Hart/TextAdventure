@@ -6,12 +6,12 @@ This is a python script (two actually) that lets YOU create a text adventure gam
 ## How Do I Use It?
 I'm glad you asked. It's easy!
 
-### Step 1: Make sure Python3 is installed. If not, go to [https://www.python.org/downloads/](https://www.python.org/downloads/)
+### Step 1: Make sure Python 3 is installed. If not, go to [https://www.python.org/downloads/](https://www.python.org/downloads/)
 ### Step 2: Write your story!
 Create a text file called "story.txt" in this folder.
 In this file, write "scenes", each ending with a choice, like this:
 ```
-\# Comment
+# Comment
 --
 <name>
 
@@ -24,11 +24,13 @@ In this file, write "scenes", each ending with a choice, like this:
 <outcome1>
 <outcome2>
 ```
-The name can be anything, as long as you have one scene called "start"
+To separate scenes, use `--` on a single line.
 
-You can have as many lines of text as you want.
+The name can be anything, as long as you have one scene called "start."
 
-You can have as many options as you want, as long as the number of outcomes is the same
+You can have as many lines of text as you want. (Or Zero)
+
+You can have as many options as you want, as long as the number of outcomes is the same. You can also have zero options.
 
 If there are no options and no outcomes, the scene will automatically be marked as an "end scene," meaning it will be interpreted as an end to the story.
 
