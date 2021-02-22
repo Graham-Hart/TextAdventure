@@ -13,16 +13,16 @@ In this file, write "scenes", each ending with a choice, like this:
 ```
 # Comment
 --
-<name>
+name
 
-<text1>
-<text2>
+text1
+text2
 
-<option1>
-<option2>
+option1
+option2
 
-<outcome1>
-<outcome2>
+outcome1 name
+outcome2 name
 ```
 To separate scenes, use `--` on a single line.
 
